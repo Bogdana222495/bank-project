@@ -62,3 +62,4 @@ def get_mask_account(account_number: str) -> str:
     except Exception as e:
         logger.error(f"Ошибка при маскировке счета {account_number}: {str(e)}")
         raise
+# Логирование маскировки карт и счетов (домашнее задание)
